@@ -8,6 +8,7 @@ on:
       - 'api/**'
       - Makefile
       - .github/workflows/deploy-api.yml
+  workflow_dispatch:
 
 concurrency: deploy-api
 
